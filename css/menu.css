@@ -27,15 +27,25 @@ h2{
 .menuitem:hover{
     color: darkblue;
 }
+
+.contentcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
+}
+
 .drink{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 60vw;
+    margin-bottom: 8vh;
 }
 
 h5{
     font-size: 2vw;
-
+    width: 12vw;
 }
 
 
@@ -46,6 +56,8 @@ h5{
     top: 14vh;
     padding-left: 2vw;
     padding-right: 2vw;
+    width: 25vw;
+    height: fit-content;
 }
 
 .ingredients{

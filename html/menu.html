@@ -4,30 +4,49 @@
     <meta charset="UTF-8">
     <title>bar</title>
     <link rel="stylesheet" href="../css/menu.css">
+    <script src="../javascript/menu.js" defer></script>
 </head>
 <body>
     <div class="titlecontainer">
         <h2>Menu</h2>
     </div>
     <div class="menucategory">
-        <div class="menuitem">Coffee</div>
+        <div class="menuitem" onclick="showdrink(1)">Coffee</div>
         <div class="menuitem">Tea</div>
         <div class="menuitem">Alchoholic Cocktails</div>
-        <div class="menuitem">Non-Alchoholic Cocktails</div>
-        <div class="menuitem">Soft drinks</div>
+        <div class="menuitem" onclick="showdrink(4)">Non-Alchoholic Cocktails  </div>
+        <div class="menuitem" onclick="showdrink(5)">Soft drinks</div>
         <div class="menuitem">Juices</div>
     </div>
     <div class="contentcontainer">
-        <div class="drink">
+        <div class="drink non-alchoholic">
             <h5>Pina Colada</h5>
-            <div class="ingredientscont">
+            <span class="ingredientscont">
             <p class="ingredients">Cocunut syrup, cream, pineapple juice, cocktail cherry</p>
             <p class="ingredients">350ml</p>
-            </div>
+            </span>
             <img src="../pictures/pinacolada.webp" alt="" class="drinkimg">
             <div class="price">350egp</div>
         </div>
-            <div class="drink">
+           <div class="drink non-alchoholic">
+            <h5>Milk Shake</h5>
+            <span class="ingredientscont">
+            <p class="ingredients">Milk, ice cream, syrup of choice</p>
+            <p class="ingredients">350ml</p>
+            </span>
+            <img src="../pictures/milkshake.jpg" alt="" class="drinkimg">
+            <div class="price">200egp</div>
+        </div>
+           <div class="drink non-alchoholic">
+            <h5>Mojito</h5>
+            <span class="ingredientscont">
+            <p class="ingredients">Lemon, mint, cane syrup, soda</p>
+            <p class="ingredients">350ml</p>
+            </span>
+            <img src="../pictures/mojito.jpg" alt="" class="drinkimg">
+            <div class="price">350egp</div>
+        </div>
+            <div class="drink soft-drink">
             <h5>Coca-Cola</h5>
             <div class="ingredientscont">
             <p class="ingredients">With ice, without ice</p>
@@ -36,7 +55,7 @@
             <img src="../pictures/cola.webp" alt="" class="drinkimg">
             <div class="price">35egp</div>
         </div>
-        <div class="drink">
+        <div class="drink soft-drink">
             <h5>Sprite</h5>
             <div class="ingredientscont">
             <p class="ingredients">With ice, without ice</p>
@@ -45,7 +64,7 @@
             <img src="../pictures/sprite.webp" alt="" class="drinkimg">
             <div class="price">35egp</div>
         </div>
-        <div class="drink">
+        <div class="drink soft-drink">
             <h5>Schweppes</h5>
             <div class="ingredientscont">
             <p class="ingredients">With ice, without ice</p>
@@ -53,6 +72,15 @@
             </div>
             <img src="../pictures/schweppes.jpg" alt="" class="drinkimg">
             <div class="price">35egp</div>
+        </div>
+        <div class="drink coffee">
+            <h5>Espresso</h5>
+            <span class="ingredientscont">
+            <p class="ingredients">two types of coffee beans (Arabica, Robusta)</p>
+            <p class="ingredients">45ml</p>
+            </span>
+            <img src="../pictures/espresso.jpg" alt="" class="drinkimg">
+            <div class="price">70egp</div>
         </div>
     </div>
 </body>
