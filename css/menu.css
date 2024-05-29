@@ -1,0 +1,68 @@
+.titlecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #000;
+    text-shadow: 0 0 0 15px gold;
+    font-size: 3vw;
+}
+
+.menucategory{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+    border: 0.1vw solid black;
+}
+
+.menuitem{
+    border: 0.1vw solid black;
+    font-size: 2vw;
+    width: 25vw;
+    align-content: center;
+    text-align: center;
+}
+
+.menuitem:hover{
+    color: darkblue;
+}
+.drink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    font-size: 2vw;
+
+}
+
+
+.ingredientscont{
+    border: 0.2vw solid black;
+    position: relative;
+    left: -7vw;
+    top: 14vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.ingredients{
+    font-size: 1.7vw;
+
+}
+
+.drinkimg{
+    position: relative;
+    top: 7vh;
+    width: 11vw;
+}
+
+.price{
+    position: relative;
+    top: 7vh;
+    font-size: 1.7vw;
+}
+
+
