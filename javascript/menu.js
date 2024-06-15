@@ -45,3 +45,5 @@ function showspecificdrink(type){
     menuitem.style.color="darkred";
     menuitem.style.fontWeight="bold";
 }
+
+

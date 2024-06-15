@@ -1,6 +1,9 @@
+@font-face{
+    font-family:mainfont;
+    src:url(../carmen.woff2);
+}
 
-
-
+*{font-family: mainfont, sans-serif;}
 .titlecontainer{
     display: flex;
     justify-content: center;
@@ -25,7 +28,7 @@ h2{
     width: 25vw;
     align-content: center;
     text-align: center;
-    z-index: -1;
+    z-index: 0;
 }
 
 .menuitem:hover{
@@ -88,7 +91,7 @@ h5{
     left: 2vw;
     top: 2vh;
     transition: 1s;
-    z-index: 1;
+    z-index: 2;
 }
 
 .homebutton:hover{
@@ -114,8 +117,8 @@ h5{
     display: flex;
     justify-content: flex-end;
     top: 0;
-    width: 98vw;
-    z-index: -5;
+    left: 83.5vw;
+    z-index: 1;
 }
 
 .rightsideflower{
@@ -126,7 +129,7 @@ h5{
     position: absolute;
     top: -5vh;
     left: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 .flowerL{
