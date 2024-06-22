@@ -118,4 +118,8 @@ body{
     opacity: 0.5;
 }
 
+.up:hover{
+    transform: scale(1.2);
+}
+
 
