@@ -1,0 +1,121 @@
+*{padding: 0;
+margin: 0;
+}
+body{
+    max-height: 150vh;
+    height: 150vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.conthidetext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.topflowers{
+    width: 98vw;
+}
+
+.barname{
+    font-size: 6vw;
+    color: crimson;
+    position: absolute;
+    left: 40vw;
+    top: 35vh;
+    text-shadow: 0 0 15px crimson;
+    transform: translate3d(0, calc(var(--scrollTop)*-0.8), 0);
+    z-index: -1;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99vw;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2vw;
+    opacity: 0.8;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    z-index: 2;
+}
+
+.info{
+    
+}
+
+
+.watercontainer{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -20vh;
+    transform: translate3d(0, calc(var(--scrollTop)*1), 0);
+    
+}
+
+.water{
+    width: 100vw;
+
+}
+
+
+.bottles{
+    position: absolute;
+    bottom: 15vh;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 98vw;
+}
+
+.bottle{
+    height: 30vh;
+    
+    
+}
+
+.one{
+    transform: translate3d(0, calc(var(--scrollTop)*0.5), 0) rotate(345deg);
+}
+
+
+.two{
+    transform: translate3d(0, calc(var(--scrollTop)*0.47), 0) rotate(10deg);
+}
+
+.three{
+    transform: translate3d(0, calc(var(--scrollTop)*0.42), 0) rotate(330deg);
+}
+
+
+.four{
+    transform: translate3d(0, calc(var(--scrollTop)*0.56), 0) rotate(30deg);
+}
+
+
+.five{
+    transform: translate3d(0, calc(var(--scrollTop)*0.59), 0) rotate(355deg);
+}
+
+.containerup{
+    position: absolute;
+    bottom: -50vh;
+    z-index: 1;
+    width: 100vw;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.up{
+    width: 7vw;
+    opacity: 0.5;
+}
+
+
