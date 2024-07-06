@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bar</title>
+    <link rel="stylesheet" href="../css/special_event.css">
+    <script src="../javascript/special_event.js" defer></script>
+</head>
+<body>
+  <img src="../decorations/decor.png" alt="" class="bg">
+    <img src="../decorations/decor2.png" alt="" class="bg2">
+   <div class="homebutton" onclick="window.location.href='index.html'">
+        <img src="../pictures/homebtn.png" alt="" class="home">
+    </div>
+       <div class="menubtn" onclick="window.location.href='menu.html'">
+        <img src="../pictures/menuicon.png" alt="" class="home">
+    </div>
+    <div class="days">
+        <div onclick="changeday(0)" class="day">Sunday</div>
+        <div onclick="changeday(1)" class="day">Monday</div>
+        <div onclick="changeday(2)" class="day">Tuesday</div>
+        <div onclick="changeday(3)" class="day">Wednesday</div>
+        <div onclick="changeday(4)" class="day">Thursday</div>
+        <div onclick="changeday(5)" class="day">Friday</div>
+        <div onclick="changeday(6)" class="day">Saturday</div>
+    </div>
+    <div class="mainpart">
+        <div id="cd" class="currentday"></div>
+        <div id="todayevent" class="specialevent"></div>
+        <div id="info" class="information"></div>
+        <div class="contimg">
+            <img src="" alt="">
+        </div>
+    </div>
+</body>
+</html>

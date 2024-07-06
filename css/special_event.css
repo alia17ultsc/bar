@@ -1,0 +1,117 @@
+@font-face{
+    font-family:mainfont;
+    src:url(../carmen.woff2);
+}
+
+
+*{font-family: mainfont, sans-serif;}
+
+body{
+    display: flex;
+    
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 82vh;
+    width: 15vw;
+    font-size: 7vh;
+    align-items: center;
+    color: crimson;
+    /*border: solid 5px crimson;*/
+    margin-top: 13vh;
+}
+
+.currentday{
+    width: 80vw;
+    font-size: 7vw;
+    text-align: center;
+    color: crimson;
+    text-shadow: 0 0 15px grey;
+}
+
+.specialevent{
+    width: 80vw;
+    font-size: 4vw;
+    text-align: center;
+    color: grey;
+    text-shadow: 0 0 15px crimson;
+}
+
+.homebutton{
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    transition: 1s;
+    z-index: 2;
+}
+
+.menubtn{
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    transition: 1s;
+    z-index: 2;
+}
+
+.homebutton:hover{
+    transform: scale(1.3);
+    
+}
+
+
+.menubtn:hover{
+    transform: scale(1.3);
+    
+}
+
+
+.home{
+    width: 5vw;
+}
+
+.day{
+    transition: 1s;
+}
+
+.day:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 15px gold;
+}
+
+.information{
+    font-size: 2.5vw;
+    color: grey;
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+
+
+.bg{
+    position: absolute;
+    width: 47vw;
+
+    z-index: -4;
+    left: 0;
+    bottom: 0;
+    opacity: 0.4;
+}
+
+
+.bg2{
+    position: absolute;
+    width: 47vw;
+
+    z-index: -4;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+}
+
+
+
+
+
+
