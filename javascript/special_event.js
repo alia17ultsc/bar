@@ -24,11 +24,23 @@ var infolist=[sn, karoke, gn, mn, fgs, dn, daten];
 var info=document.getElementById("info");
 info.innerText=infolist[day.getDay()];
 
+const imgsn="../decorations/dessertsun.png";
+const imgkaroke="../decorations/stagemon.png";
+const imggn="../decorations/gametue.png";
+const imgmn="../decorations/mafiawed.png";
+const imgfgs="../decorations/singerthu.png";
+const imgdn="../decorations/dancefri.png";
+const imgdaten="../decorations/datesat.png";
+
+var imglist=[imgsn, imgkaroke, imggn, imgmn, imgfgs, imgdn, imgdaten];
+var img=document.getElementById("eventimg");
+img.src=imglist[day.getDay()];
 
 
 function changeday(daynumber){
     cdcontainer.innerText = days[daynumber];
     todayEvent.innerText = dailyevent[daynumber];
     info.innerText=infolist[daynumber];
+    img.src=imglist[daynumber];
 }
 

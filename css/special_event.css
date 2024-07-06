@@ -18,6 +18,7 @@ body{
     height: 82vh;
     width: 15vw;
     font-size: 7vh;
+    font-weight: bold;
     align-items: center;
     color: crimson;
     /*border: solid 5px crimson;*/
@@ -82,10 +83,16 @@ body{
 }
 
 .information{
-    font-size: 2.5vw;
+    align-self: baseline;
+    font-size: 3vw;
     color: grey;
+    font-weight: 900;
     margin-left: 10vw;
     margin-top: 15vh;
+    width: 25vw;
+    align-content: center;
+    position: relative;
+    bottom: 10vh;
 }
 
 
@@ -110,8 +117,24 @@ body{
     opacity: 0.4;
 }
 
+.contimg{
+
+    
+}
+
+#eventimg{
+    width: 25vw;
+    margin-left: 7vw;
+    transition: all 1.5s;
+}
 
 
+.infoimg{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+}
 
 
 
