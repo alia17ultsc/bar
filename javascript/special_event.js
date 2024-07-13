@@ -36,11 +36,34 @@ var imglist=[imgsn, imgkaroke, imggn, imgmn, imgfgs, imgdn, imgdaten];
 var img=document.getElementById("eventimg");
 img.src=imglist[day.getDay()];
 
-
+window.onload = ()=>{
+    img.classList.add("addopacity");
+};
 function changeday(daynumber){
-    cdcontainer.innerText = days[daynumber];
+    
+    
+    img.classList.remove("addopacity");
+    img.classList.add("removeopacity");
+    cdcontainer.classList.remove("addopacity");
+    cdcontainer.classList.add("removeopacity");
+    todayEvent.classList.remove("addopacity");
+    todayEvent.classList.add("removeopacity");
+    info.classList.remove("addopacity");
+    info.classList.add("removeopacity");
+    
+    setTimeout(()=>{
+        img.src=imglist[daynumber];
+        cdcontainer.innerText = days[daynumber];
     todayEvent.innerText = dailyevent[daynumber];
     info.innerText=infolist[daynumber];
-    img.src=imglist[daynumber];
+        img.classList.remove("removeopacity");
+        img.classList.add("addopacity");
+        cdcontainer.classList.remove("removeopacity");
+    cdcontainer.classList.add("addopacity");
+    todayEvent.classList.remove("removeopacity");
+    todayEvent.classList.add("addopacity");
+    info.classList.remove("removeopacity");
+    info.classList.add("addopacity");
+    }, 500);
 }
 

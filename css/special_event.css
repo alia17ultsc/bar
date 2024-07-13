@@ -31,6 +31,7 @@ body{
     text-align: center;
     color: crimson;
     text-shadow: 0 0 15px grey;
+    transition: all 0.5s ease-in-out;
 }
 
 .specialevent{
@@ -39,6 +40,7 @@ body{
     text-align: center;
     color: grey;
     text-shadow: 0 0 15px crimson;
+    transition: all 0.5s ease-in-out;
 }
 
 .homebutton{
@@ -93,6 +95,7 @@ body{
     align-content: center;
     position: relative;
     bottom: 10vh;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -125,7 +128,8 @@ body{
 #eventimg{
     width: 25vw;
     margin-left: 7vw;
-    transition: all 1.5s;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 
@@ -136,5 +140,12 @@ body{
     height: 30vh;
 }
 
+.addopacity{
+    opacity: 1;
+}
+
+.removeopacity{
+    opacity: 0;
+}
 
 
