@@ -34,6 +34,9 @@ function showdrink(drinktype){
     else if(drinktype==6){
         type = "juices";
     }
+    else if(drinktype==7){
+        type = "shots"
+    }
     showspecificdrink(type);  
 }
 

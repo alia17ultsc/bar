@@ -29,6 +29,7 @@ h2{
     align-content: center;
     text-align: center;
     z-index: 0;
+    font-weight: 900;
 }
 
 .menuitem:hover{
